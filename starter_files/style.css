@@ -16,8 +16,119 @@ header {
   background-color: #ff8523;
 }
 
+#site_header {
+  color: #ff8523;
+  padding: 20px;
+}
+
+#logo {
+  margin-bottom: 50px;
+}
+
 .main_navigation a {
-  border-width: 10px;
+  border-width: 1px;
   border-style: solid;
   border-color: #fff;
+  margin: 0px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 50px 5px 50px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #1fabe5;
+}
+
+section p a {
+  color: #1fabe5;
+}
+
+section {
+  border-bottom: 3px solid #dddddd;
+  padding: 25px;
+}
+
+ul {
+  font-weight: bold;
+}
+
+section h3 {
+  color: #1fabe5;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+thead {
+  background-color: #046c97;
+  color: white;
+}
+
+table, th, td {
+    border: 1px solid #046c97;
+
+}
+
+td {
+  padding: 10px;
+}
+
+
+table tbody tr td img {
+  padding: 10px;
+  height: 150px;
+
+}
+
+form {
+  background-color: #dddddd;
+  padding: 20px;
+  border-radius: 5px;
+
+
+}
+
+.name {
+  background-color: #ff8523;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  border-radius: 5px;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.name input {
+  height: 30px;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.city_container {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+#bio {
+  margin-top: 8px;
+  width: 1175px;
+
+}
+
+#submit_button {
+  background-color: #046c97;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 8px;
 }
